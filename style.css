@@ -1,0 +1,486 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    /* font-family: 'Roboto', sans-serif;   */
+}
+body{
+   margin: 0;
+  
+  
+}
+/* <!-- Navbar Start Here --> */
+.logo{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+/* logo ends */
+
+ /* h1 start here  */
+h1{
+    font-size: 2rem;
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+}
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+/* h1 ends here  */
+/* a start here  */
+a{
+    color:white;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+/* a ends here  */
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+/* for mobile start */
+[class*="col-"]{
+    width: 100%;
+}
+/* for mobile end here */
+/* Navbar  start here  */
+.navbar{
+    background-color: rgb(3, 46, 31);
+    padding: 1% 7%;
+    text-align: center;
+
+}
+ /* Navbar ends here  */
+ /* Navbar h1 start here  */
+ .navbar h1{
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+    font-style: italic;
+ }
+ /* Navbar h1 ends here  */
+ /* Navbar menu start here  */
+.navbar-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.navbar-menu a{
+    background-color: rgba(12, 169, 169, 0.72);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 7px 0;
+}
+.navbar-menu a:hover{
+    background-color: gray ;
+    text-decoration: underline rgb(220, 9, 9);
+    
+}
+  /* Navbar menu ends here  */
+
+ /* Navbar Floating clear  start here  */
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+    
+}
+/* <!-- Navbar ends Here --> */
+
+/* profile design start here  */
+.profile{
+    padding: 130px 10px;
+    position: relative;
+    text-align: center;
+    background-image: url(./images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.profile .top-icon{
+    width: 100px;
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    border-radius: 50%;
+    transition: transform 2s;
+}
+
+.profile .top-icon:hover{
+    transform: rotate(360deg);
+    width: 120px;
+    border: 1px solid black;
+}
+.profile-desc h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+}
+.profile-desc p{
+    color: gray;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto 20px auto;
+}
+
+.profile .bottom-icon{
+    position: absolute;
+    width: 100px;
+    left: 60px;
+    bottom: 10px;
+    border-radius: 50%;
+    transition: transform 2s;
+}
+
+.profile .bottom-icon:hover{
+    transform: rotate(360deg);
+    width: 120px;
+    border: 1px solid black;
+}
+
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* profile design ends here  */
+
+/* about me design starts here  */
+
+.about-me{
+    background-color: rgb(6, 172, 181);
+    padding: 1% 7%;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.aboutme-image img{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 220px;
+    width: 200px;
+
+}
+.about-me p{
+    text-align: center;
+}
+.about-me a{
+    font-size: 1.2rem;
+}
+.cv-button{
+    background-color: rgb(8, 129, 89);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 10px;
+    text-align: center;
+
+}
+.about-me::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.dotted-hr{
+    border: dotted 6px white ;
+    border-bottom: none;
+    width: 70px;
+}
+
+*/ about me design starts here  */
+
+  /* professional-experience start here */ */
+ 
+ .professional-experience{
+    padding: 1% 0%;
+ }
+ .card-icon{
+    text-align: center;
+    
+ }
+
+ .card-icon img{
+    width: 100px;
+ }
+ .card-title h2{
+    background: #616161;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    
+ }
+.card{
+    background-color: #a39e9e;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+    height: 700px;
+ }
+.card:hover{
+    box-shadow: 0 4px 8px 5px rgb(34, 4, 4);
+ }
+
+ .professional-experience::after{
+    clear: both;
+    display: table;
+    content: '';
+ }
+  /* professional-experience start here */
+ 
+  
+  .card-title h2{
+    background-color: rgb(174, 198, 227);
+    color: white;
+    padding:10px;
+    
+
+  }
+  .card-icon .rounded-img{
+    max-width: 100px;
+    border: 2px solid black;
+    border-radius: 60%;
+    text-align: center;
+  }
+  .skills-container{
+    padding-right: 45px;
+    
+  }
+  .skills-container li{
+    list-style: none;
+    font-weight: bolder;
+    margin: 30px 10px;
+    position: relative;
+  }
+  .skills-container li::before{
+   content: '';
+   position: absolute;
+   top: calc(100% + 5px);
+   left: 0;
+   width: 100%;
+   height: 10px;
+   background-color: rgba(2, 2, 50, 0.5);
+   border-radius: 1000px;
+  }
+
+  .skills-container li::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+
+    width: 0%;
+    height: 10px;
+    background-color: rgb(13, 174, 93);
+    border-radius: 1000px;
+
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+   }
+
+   .skills-container li.HTML::after{
+     animation-name: html;
+   }
+   @keyframes html{
+    to{
+        width: 90%;
+    }
+   }
+
+   
+   .skills-container li.CSS::after{
+    animation-name: css;
+  }
+  @keyframes css{
+   to{
+       width: 80%;
+   }
+  }
+
+  
+  .skills-container li.BOOTSTRAP::after{
+    animation-name: BOOTSTRAP;
+  }
+  @keyframes BOOTSTRAP{
+   to{
+       width: 85%;
+   }
+  }
+
+  
+  .skills-container li.JAVASCRIPT::after{
+    animation-name: JAVASCRIPT;
+  }
+  @keyframes JAVASCRIPT{
+   to{
+       width: 80%;
+   }
+  }
+
+  
+  .skills-container li.JQUERY::after{
+    animation-name: JQUERY;
+  }
+  @keyframes JQUERY{
+   to{
+       width: 70%;
+   }
+  }
+
+  
+  .skills-container li.NODE::after{
+    animation-name: NODE;
+  }
+  @keyframes NODE{
+   to{
+       width: 80%;
+   }
+  }
+
+  
+  .skills-container li.EXPRESS::after{
+    animation-name: EXPRESS;
+  }
+  @keyframes EXPRESS{
+   to{
+       width: 80%;
+   }
+  }
+
+  
+  .skills-container li.GITHUB::after{
+    animation-name: GITHUB;
+  }
+  @keyframes GITHUB{
+   to{
+       width: 70%;
+   }
+  }
+
+  
+  .skills-container li.REACT::after{
+    animation-name: REACT;
+  }
+  @keyframes REACT{
+   to{
+       width: 70%;
+   }
+  }
+
+  .professional-experience .card::after{
+    clear: both;
+    display: table;
+    content: '';
+ }
+
+ .professional-experiecnce{
+    
+ }
+ .professional-experiecnce::after{
+    display: table;
+    clear: both;
+    content: '';
+ }
+  
+ /* achievment-contact starts from here  */
+.achievment-contact{
+    padding: 1% 7%;
+    background-color: aqua;
+    color: white;
+}
+
+
+#h2{
+    color: white;
+    font-style: italic;
+}
+
+
+.contact{
+    padding: 1% 7%;
+    text-align: center;
+}
+.contact input,textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    resize: none;
+}
+.contact button{
+    border: none;
+    border-radius: 12px;
+    background-color: #052d2f;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    margin: 10px;
+    width: 100px;
+
+}
+
+.contact-links{
+    text-align: center;
+}
+.media-buttons .btn{
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+    padding: 5px;
+    margin: 10px;
+    width: 50px;
+    background-color: white;
+}
+
+.achievment-contact::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* achievment-contact ends  from here   */
+
+/* footer starts from here  */
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8;
+}
+
+.footer-menu a{
+    display: block;
+    margin: 15px 0;
+    font-size: 1rem;
+
+}
+.footer-menu a:hover{
+    color: gray;
+    text-decoration: underline red;
+}
+
+.footer::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* footer ends from here  */
